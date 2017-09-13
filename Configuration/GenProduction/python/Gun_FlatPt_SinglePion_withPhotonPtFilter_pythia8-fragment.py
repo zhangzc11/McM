@@ -1,7 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
 generator = cms.EDFilter("Pythia8PtGun",
-    useEvtGenPlugin = cms.PSet(),
+    #useEvtGenPlugin = cms.PSet(),
     maxEventsToPrint = cms.untracked.int32(1),
     pythiaPylistVerbosity = cms.untracked.int32(1),
     pythiaHepMCVerbosity = cms.untracked.bool(True),

@@ -98,10 +98,7 @@ process.generator = cms.EDFilter("Pythia8PtGun",
     ),
     maxEventsToPrint = cms.untracked.int32(1),
     pythiaHepMCVerbosity = cms.untracked.bool(True),
-    pythiaPylistVerbosity = cms.untracked.int32(1),
-    useEvtGenPlugin = cms.PSet(
-
-    )
+    pythiaPylistVerbosity = cms.untracked.int32(1)
 )
 
 
